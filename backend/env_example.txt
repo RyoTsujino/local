@@ -1,0 +1,17 @@
+# PostgreSQL Database Configuration
+DATABASE_URL=postgresql://postgres:kyokaden@localhost:5432/order_management
+
+# Security
+SECRET_KEY=your-secret-key-here-change-in-production
+ALGORITHM=HS256
+ACCESS_TOKEN_EXPIRE_MINUTES=30
+
+# Amazon Selling Partner API Configuration
+AMAZON_REFRESH_TOKEN=your-refresh-token
+AMAZON_LWA_APP_ID=your-lwa-app-id
+AMAZON_LWA_CLIENT_SECRET=your-lwa-client-secret
+AMAZON_AWS_ACCESS_KEY=your-aws-access-key
+AMAZON_AWS_SECRET_KEY=your-aws-secret-key
+AMAZON_ROLE_ARN=your-role-arn
+AMAZON_MARKETPLACE_ID=ATVPDKIKX0DER
+AMAZON_REGION=us-east-1 

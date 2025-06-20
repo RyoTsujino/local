@@ -1,0 +1,16 @@
+# Amazon Selling Partner API 専用パッケージ
+python-amazon-sp-api
+requests
+python-dateutil
+
+# 既存のパッケージ
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+python-multipart
+python-jose[cryptography]
+passlib[bcrypt]
+python-dotenv
+psycopg2-binary
+email-validator 
